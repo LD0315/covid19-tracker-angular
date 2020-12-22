@@ -1,11 +1,46 @@
 <div class="jumbotron bg-white text-center">
     <h1 class="display-4">Corona Covid-19 Tracker</h1>
     <hr>
-    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, nisi. 
-        Explicabo minus, aliquam doloremque velit deserunt maxime quas ullam ratione adipisci 
-        animi odio rem quibusdam consectetur repellat nulla in earum.</p>
-    <hr class="my-4">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cum quam aliquid. 
-        Quod, debitis aliquid error quo iste nulla sit pariatur in perferendis recusandae molestiae,
-        vitae sed distinctio officia laboriosam?</p>
+<div class="row">
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+              <h3>Comfirmed</h3>
+            </div>
+            <div class="value">
+            {{totalConfirmed}}
+            </div>
+        </div>
+    </div>
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+              <h3>Recovered</h3>
+            </div>
+            <div class="value">
+            {{totalRecovered}}
+            </div>
+        </div>
+    </div>
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+              <h3>Deaths</h3>
+            </div>
+            <div class="value">
+            {{totalDeaths}}
+            </div>
+        </div>
+    </div>
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+              <h3>Active</h3>
+            </div>
+            <div class="value">
+            {{totalActive}}
+            </div>
+        </div>
+    </div>
+</div>
 </div>
